@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/song_play"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Play"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/song_pause"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="Pause"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/song_previous"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="Previous"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/song_stop"
+        android:enabled="true"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Stop"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/song_skip"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="Skip"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

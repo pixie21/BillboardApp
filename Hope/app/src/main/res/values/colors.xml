@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#51d8c7</color>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="colorAccent">#7acbd9</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#131212</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#413f3f</color>
+    <color name="colorBorder">#faf5fa</color>
+    <color name="colorPrimaryNew">#008577</color>
+    <color name="colorPrimaryDarkNew">#00574B</color>
+    <color name="colorAccentNew">#D81B60</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#fffefe</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="primary_dark_material_dark">#fffdfd</color>
+    <color name="background_material_dark">#fffdfd</color>
+</resources>

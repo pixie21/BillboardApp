@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="230dp"
+android:layout_marginTop="5dp"
+android:padding="8dp"
+android:background="@drawable/bgg"
+android:id="@+id/listout1">
+
+
+    <ImageView
+        android:id="@+id/thumbnail_artist"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_shape" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+
+    <TextView
+
+        android:id="@+id/artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="cursive" />
+
+
+    <TextView
+        android:id="@+id/artist_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/artist_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_star"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/artist_peakposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="cursive" />
+
+        <TextView
+
+
+            android:id="@+id/artist_weeksonchart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/borderright"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:id="@+id/artist_lastweek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderright"
+            android:gravity="center"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="cursive" />
+
+
+        <TextView
+            android:id="@+id/artist_isNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderright"
+            android:gravity="center"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="cursive" />
+
+
+</LinearLayout>
+
+
+</LinearLayout>
